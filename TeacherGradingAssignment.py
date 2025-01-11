@@ -68,7 +68,7 @@ def menu(): #runs all other functions and the game
     while True:
         try:
             menuprint()
-            input1 = int(input("choose your option (enter a number from 1-3): "))
+            input1 = int(input("choose your option (enter a number from 1-4): "))
             if input1 > 0 and input1 < 5:
                 if input1 == 1:
                     inputgrades()

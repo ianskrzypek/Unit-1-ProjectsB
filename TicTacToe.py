@@ -249,7 +249,6 @@ def entername(x): #allows the user to enter they're own name
         ainame = random.choice(ainames) #if the ai is selected, this randomly chooses its name
     return
 
-
 reset()
 othervariables()
 menu()

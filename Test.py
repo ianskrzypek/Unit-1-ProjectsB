@@ -53,3 +53,15 @@ dictionary = {"Ian":[30,24,25]}
 print(len(DICKtionary))
 t = {}
 print(len(t))
+
+file = open("test.csv","a")
+file.write("\nhello")
+file.write("\nhello")
+file.close
+for i in range (2):
+    while True:
+        try:
+            input3 = input("input: ")
+            break
+        except:
+            print("idiot")
